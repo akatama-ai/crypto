@@ -1,0 +1,8 @@
+<?php 
+$server = "{{server}}";
+$dbusername = "{{username}}";
+$dbpassword = "{{password}}";
+$database = "{{database}}";
+
+$mysqli = new mysqli($server, $dbusername, $dbpassword, $database);
+?>
